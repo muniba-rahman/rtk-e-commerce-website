@@ -1,0 +1,18 @@
+.inputClass{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid blue;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+}
+
+.btn{
+    background: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    margin-block-start: 10px;
+}

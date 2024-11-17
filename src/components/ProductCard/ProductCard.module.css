@@ -1,0 +1,34 @@
+.card{
+    width: 100%;
+    /* max-width: 300px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.btn{
+    border: none;
+    width: max-content;
+    background: blue;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
